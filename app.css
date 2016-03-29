@@ -1,0 +1,148 @@
+/* DEFAULTS */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+/* APP WIDE */
+.container {
+  margin-bottom: 50px;
+}
+
+.navbar-container {
+  margin-bottom: auto;
+}
+
+h1 {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+ul {
+  list-style-type: circle;
+  padding-left: 17px;
+  margin-bottom: 50px;
+  max-width: 500px;
+}
+
+li {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* HOME */
+.home-template h1 {
+  text-transform: none;
+}
+
+.home-template p {
+  margin-top: 15px;
+}
+
+.home-template small {
+  font-size: 10px;
+}
+
+/* PERSONAL */
+.personal-template img {
+  margin-bottom: 50px;
+}
+
+.personal-template section {
+  width: 400px;
+  border-top: 1px solid black;
+  margin-bottom: 50px;
+}
+
+.personal-template h6 {
+  margin-top: 5px;
+}
+
+.personal-template ul {
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.personal-template li {
+  font-size: 18px;
+}
+
+.personal-template .quotes li {
+  font-size: 14px;
+}
+
+
+
+/* EXPERIENCE */
+.experience-template .dates, .experience-template .content {
+  float: left;
+}
+
+.experience-template .experience {
+  clear: left;
+}
+
+.experience-template .dates {
+  width: 90px;
+  text-align: right;
+}
+
+.experience-template .dates span {
+  position: relative;
+  top: 5px;
+}
+
+.experience-template .content {
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .experience-template .content {
+    margin-left: 0;
+  }
+}
+
+
+/* PROJECTS */
+.projects-template .project  {
+  margin-bottom: 50px;
+}
+
+.projects-template .project img {
+  border: 1px solid lightgray;
+}
+
+.projects-template .project p.links {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.projects-template .project-minor {
+  margin-bottom: -20px;
+}
+
+.projects-template .project-minor p {
+  margin-bottom: 5px;
+}
