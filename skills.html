@@ -4,17 +4,18 @@
 		<meta charset="utf-8">
 		<title>Conner Greene</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="skills.js"></script>
 		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 		<link href="app.css" rel="stylesheet">
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<nav class="navbar navbar-default navbar-static-top">
+		<nav class="navbar navbar-default navbar-fixed-top">
       <div class="container navbar-container">
         <ul class="nav navbar-nav navbar-left">
 	        <li><a href="./index.html"><span class="glyphicon glyphicon-home"></span></a></li>
           <li><a href="personal.html">Personal</a></li>
-          <li><a href="experience.html">Experience</a></li>
+          <li><a href="education.html">Education</a></li>
           <li><a href="skills.html">Skills</a></li>
           <li><a href="projects.html">Projects</a></li>
         </ul>
@@ -23,7 +24,82 @@
         </ul>
       </div>
     </nav>
+    <div class="container skills-template">
+    			<div class="page-header">
+    				<h1>Skills</h1>
+    			</div>
 
+    			<div class="top clearfix">
+    				<div class="summary">
+    					<h2>I am comfortable working with the MEAN stack, I enjoy learning, and I am excellent at working with others.</h2>
+    					<p><small>Updated 4/6/16</small></p>
+    				</div>
+
+    				<div class="scale">
+    					<p>Scale:</p>
+    					<ol>
+    						<li>✩✩✩✩✩ - Mastery</li>
+    						<li>✩✩✩✩ - Strong</li>
+    						<li>✩✩✩ - Comfortable</li>
+    						<li>✩✩ - Competent but not educationd</li>
+    						<li>✩ - I know the gist of it</li>
+    					</ol>
+    				</div>
+    			</div>
+
+    			<div class="row skills">
+    					<div class="col-xs-6 col-md-3">
+    						<h4>CS</h4>
+    						<ul>
+    							<li id="turingMachines">Turing Machines ✩</li>
+    							<li id="assembly">Assembly ✩</li>
+    							<li id="c">C ✩</li>
+    							<li id="cplusplus">C++ ✩✩✩</li>
+                  <li id="python">Python ✩✩</li>
+                  <li id="java">Java ✩✩</li>
+    							<li id="mvc">MVC ✩✩</li>
+    						</ul>
+    					</div>
+
+    					<div class="col-xs-6 col-md-3">
+    						<h4>Front End</h4>
+    						<ul>
+    							<li id="html">HTML ✩✩✩✩</li>
+    							<li id="css">CSS, SASS, Bootstrap ✩✩✩</li>
+    							<li id="javascript">JavaScript ✩✩✩✩</li>
+    							<li id="jquery">jQuery ✩✩✩</li>
+    							<li id="angular">Angular ✩✩✩✩</li>
+    							<li id="karmaJasmine">Karma, Jasmine ✩</li>
+    							<li id="gulpGrunt">Gulp, Grunt ✩✩</li>
+    						</ul>
+    					</div>
+
+    					<div class="col-xs-6 col-md-3">
+    						<h4>Back End</h4>
+    						<ul>
+    							<li id="node">Node ✩✩</li>
+    							<li id="express">Express ✩✩✩</li>
+    							<li id="passport">Passport ✩</li>
+    							<li id="mongo">MongoDB, Mongoose ✩✩✩</li>
+    							<li id="mochaSupertest">Mocha, Supertest ✩</li>
+    							<li id="sql">Relational DBs, SQL ✩</li>
+    						</ul>
+    					</div>
+
+    					<div class="col-xs-6 col-md-3 soft">
+    						<h4>Other</h4>
+    						<ul>
+    							<li id="smartWork">Smart Work ✩✩✩✩</li>
+    							<li id="communication">Communication/Team work ✩✩✩✩✩</li>
+    					</div>
+    				</div>
+
+    				<div class="row elaboration">
+    					<h3 id="skill">Click a skill to see notes</h3>
+    					<ul></ul>
+    				</div>
+    			</div>
+        </div>
 
 	</body>
 </html>

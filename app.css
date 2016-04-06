@@ -15,6 +15,9 @@ html {
 }
 
 /* APP WIDE */
+.myFace {
+  border-radius: 150px;
+}
 .container {
   margin-bottom: 50px;
 }
@@ -26,6 +29,7 @@ html {
 h1 {
   font-weight: normal;
   text-transform: uppercase;
+  padding-top: 30px;
 }
 
 h3 {
@@ -95,31 +99,31 @@ li {
 
 
 
-/* EXPERIENCE */
-.experience-template .dates, .experience-template .content {
+/* education */
+.education-template .dates, .education-template .content {
   float: left;
 }
 
-.experience-template .experience {
+.education-template .education {
   clear: left;
 }
 
-.experience-template .dates {
+.education-template .dates {
   width: 90px;
   text-align: right;
 }
 
-.experience-template .dates span {
+.education-template .dates span {
   position: relative;
   top: 5px;
 }
 
-.experience-template .content {
+.education-template .content {
   margin-left: 20px;
 }
 
 @media (max-width: 768px) {
-  .experience-template .content {
+  .education-template .content {
     margin-left: 0;
   }
 }
@@ -145,4 +149,58 @@ li {
 
 .projects-template .project-minor p {
   margin-bottom: 5px;
+}
+
+
+/* SKILLS */
+.skills-template .top {
+  margin-bottom: 75px;
+}
+
+.skills-template .summary {
+  width: 450px;
+  float: left;
+}
+
+.skills-template .summary h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.skills-template .summary p {
+  font-size: 14px;
+}
+
+.skills-template .scale {
+  float: right;
+  padding: 10px;
+  border: 1px solid darkgray;
+}
+
+.skills-template .scale ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills-template h4 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.skills-template .soft ul {
+  margin-bottom: 14px;
+}
+
+.skills-template .skills {
+  margin-bottom: 50px;
+}
+
+.skills-template .skills li {
+  cursor: pointer;
+}
+
+.skills-template .elaboration {
+  padding-top: 20px;
+  border-top: 1px solid lightgray;
+  min-height: 200px;
 }
