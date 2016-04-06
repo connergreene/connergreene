@@ -79,6 +79,14 @@ $(document).ready(function() {
       'I am very good at talking to people who need help or asking for help when I need help.',
       'I am always receptive to criticism and give criticisms in a constructive manner when needed.',
       'I believe my ability to interact with others is a strength of mine and goes a long way in working with others.'
+    ],
+    psychology: [
+      'I learned a lot at school due to my degree in Neuroscience. I believe it helped me to think more analytically.'
+    ],
+    git: [
+      'I\'m comfortable working with Git and GitHub.',
+      'I use it for version control on all of my project',
+      'I am no master of it but I am sure if there is a problem I could easily troubleshoot it due to my familiarity.'
     ]
   };
 
