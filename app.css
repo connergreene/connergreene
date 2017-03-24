@@ -16,6 +16,8 @@ html {
 
 /* APP WIDE */
 .myFace {
+  display: block;
+  margin: auto;
   border-radius: 150px;
 }
 .container {
@@ -23,13 +25,29 @@ html {
 }
 
 .navbar-container {
-  margin-bottom: auto;
+  margin-bottom: 5px;
+}
+
+.navbar-default {
+  background-color: #9e9e9e;
+  border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+body {
+  background-color: #8bc34a;
 }
 
 h1 {
   font-weight: normal;
   text-transform: uppercase;
   padding-top: 30px;
+  text-align: center;
 }
 
 h3 {
@@ -78,6 +96,8 @@ li {
   width: 400px;
   border-top: 1px solid black;
   margin-bottom: 50px;
+  display: block;
+  margin: auto;
 }
 
 .personal-template h6 {
