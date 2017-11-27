@@ -172,6 +172,11 @@ li {
   margin-bottom: 5px;
 }
 
+.project-image {
+  height: 400px;
+  width: 600px;
+}
+
 
 /* SKILLS */
 .skills-template .top {
