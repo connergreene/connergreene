@@ -1,57 +1,102 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title>Conner Greene</title>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-		<link href="app.css" rel="stylesheet">
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container navbar-container">
-        <ul class="nav navbar-nav navbar-left">
-	        <li><a href="./index.html"><span class="glyphicon glyphicon-home"></span></a></li>
-          <li><a href="personal.html">Personal</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li><a href="skills.html">Skills</a></li>
-          <li><a href="projects.html">Projects</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="mailto:csg1922@gmail.com">csg1922@gmail.com</a></li>
-        </ul>
+    <meta charset="utf-8">
+    <title>Conner Greene</title>
+    <link rel="shortcut icon" href="logo.png" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="app.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <script src="navbar.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-fixed-top">
+        <a href="./index.html" class="nav-logo">
+          <img src="logo.svg">
+        </a>
+        <div class="burger">
+          <div class="burger__patty"></div>
+          <div class="burger__patty"></div>
+          <div class="burger__patty"></div>
+        </div>
+        <nav class="menu">
+          <div class="menu__brand">
+            <div class="logo">
+              <a href="mailto:csg1922@gmail.com">
+                <img src="logo.svg">
+              </a>
+            </div>
+          </div>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="personal.html" class="menu__link">Personal</a>
+            </li>
+            <li class="menu__item">
+              <a href="education.html" class="menu__link">Education</a>
+            </li>
+            <li class="menu__item">
+              <a href="skills.html" class="menu__link">Skills</a>
+            </li>
+            <li class="menu__item">
+              <a href="projects.html" class="menu__link">Projects</a>
+            </li>
+          </ul>
+        </nav>
+      </nav>
+    </header>
+    <main>
+      <div class="page-header">
+        <h1>education</h1>
       </div>
-    </nav>
-    <div class="container education-template">
-   			<div class="page-header">
-   				<h1>education</h1>
-   			</div>
-   			<div class="education">
-   				<div class="dates hidden-xs">
-   					<span>2015-2016</span>
-   				</div>
-   				<div class="content">
-   					<h3>Fullstack Academy</h3>
-   					<ul>
-   						<li>Coding bootcamp.</li>
-   						<li>Teaches the best practices of web development and the MEAN stack.</li>
-   					</ul>
-   				</div>
-   			</div>
+      <div class="container education-template">
+            <!-- <div>
+              <iframe width="640" height="340" src="https://www.youtube.com/embed/euyrOo_QdF8?rel=0&showinfo=0&autohide=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div> -->
+        <div class="grey-border">
+      			<div class="education">
+      				<div class="content">
+      					<h2>Fullstack Academy</h2>
+                <div class="dates">
+                  <span>2015-2016</span>
+                </div>
+      					<ul>
+      						<li>Coding bootcamp.</li>
+      						<li>Teaches the best practices of web development and the MEAN stack.</li>
+      					</ul>
+      				</div>
+      			</div>
 
-   			<div class="education">
-   				<div class="dates hidden-xs">
-   					<span>2010-2015</span>
-   				</div>
-   				<div class="content">
-   					<h3>Binghamton University</h3>
-   					<ul>
-   						<li>B.S. Integrated Neuroscience</li>
-              <li>Minor Computer Science</li>
-   					</ul>
-   				</div>
-   			</div>
+      			<div class="education">
+      				<div class="content">
+      					<h2>Binghamton University</h2>
+                <div class="dates">
+                  <span>2010-2015</span>
+                </div>
+      					<ul>
+      						<li>B.S. Integrated Neuroscience</li>
+                  <li>Minor Computer Science</li>
+      					</ul>
+      				</div>
+      			</div>
+        </div>
       </div>
+    </main>
+    <footer class="site-footer">
+          <ul>
+              <li><a href="mailto:csg1922@gmail.com">csg1922@gmail.com</a></li>
+              <li>-</li>
+              <li><a href="https://github.com/connergreene">GitHub</a></li>
+              <li>-</li>
+              <li><a href="http://stackoverflow.com/users/5964572/conner-greene">Stack Overflow</a></li>
+              <li>-</li>
+              <li><a href="https://news.ycombinator.com/user?id=csg1922">Hacker News</a></li>
+          </ul>
+      </footer>
 	</body>
 </html>

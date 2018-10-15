@@ -1,107 +1,150 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title>Conner Greene</title>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="skills.js"></script>
-		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-		<link href="app.css" rel="stylesheet">
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container navbar-container">
-        <ul class="nav navbar-nav navbar-left">
-	        <li><a href="./index.html"><span class="glyphicon glyphicon-home"></span></a></li>
-          <li><a href="personal.html">Personal</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li><a href="skills.html">Skills</a></li>
-          <li><a href="projects.html">Projects</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="mailto:csg1922@gmail.com">csg1922@gmail.com</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container skills-template">
-    			<div class="page-header">
-    				<h1>Skills</h1>
-    			</div>
+        <meta charset="utf-8">
+        <title>Conner Greene</title>
+        <link rel="shortcut icon" href="logo.png" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="app.css" rel="stylesheet">
+        <link href="navbar.css" rel="stylesheet">
+        <script src="skills.js"></script>
+        <script src="navbar.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar navbar-fixed-top">
+                <a href="./index.html" class="nav-logo">
+                    <img src="logo.svg">
+                </a>
+                <div class="burger">
+                    <div class="burger__patty"></div>
+                    <div class="burger__patty"></div>
+                    <div class="burger__patty"></div>
+                </div>
+                <nav class="menu">
+                    <div class="menu__brand">
+                        <div class="logo">
+                            <a href="mailto:csg1922@gmail.com">
+                                <img src="logo.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="./index.html" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="personal.html" class="menu__link">Personal</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="education.html" class="menu__link">Education</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="skills.html" class="menu__link">Skills</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="projects.html" class="menu__link">Projects</a>
+                        </li>
+                    </ul>
+                </nav>
+            </nav>
+        </header>
+        <main>
+            <div class="page-header">
+                <h1>Skills</h1>
+            </div>
+            <div class="container skills-template">
+                <div class="grey-border">
+        			<div class="top clearfix">
+        				<div class="summary">
+                            <p><small>Updated 10/14/18</small></p>
+        					<h2>I am comfortable working with the MEAN stack, ReactJS, I enjoy learning, and I am excellent at working with others.</h2>
+        				</div>
 
-    			<div class="top clearfix">
-    				<div class="summary">
-    					<h2>I am comfortable working with the MEAN stack, I enjoy learning, and I am excellent at working with others.</h2>
-    					<p><small>Updated 4/6/16</small></p>
-    				</div>
+        				<div class="scale">
+        					<p>Scale:</p>
+        					<ol>
+        						<li>✩✩✩✩✩ - Mastery</li>
+        						<li>✩✩✩✩ - Strong</li>
+        						<li>✩✩✩ - Comfortable</li>
+        						<li>✩✩ - Competent</li>
+        						<li>✩ - I know the gist of it</li>
+        					</ol>
+        				</div>
+        			</div>
 
-    				<div class="scale">
-    					<p>Scale:</p>
-    					<ol>
-    						<li>✩✩✩✩✩ - Mastery</li>
-    						<li>✩✩✩✩ - Strong</li>
-    						<li>✩✩✩ - Comfortable</li>
-    						<li>✩✩ - Competent but not educationd</li>
-    						<li>✩ - I know the gist of it</li>
-    					</ol>
-    				</div>
-    			</div>
+                    <div class="elaboration">
+                        <h3 id="skill">Click a skill to see notes</h3>
+                        <ul></ul>
+                    </div>
+        			<div class="skills">
+        					<div class="col-xs-6 col-md-3">
+        						<h4>CS</h4>
+        						<ul>
+        							<li id="turingMachines">Turing Machines ✩</li>
+        							<li id="assembly">Assembly ✩</li>
+        							<li id="c">C ✩</li>
+        							<li id="cplusplus">C++ ✩✩✩</li>
+                                    <li id="python">Python ✩✩</li>
+                                    <li id="java">Java ✩✩</li>
+        							<li id="mvc">MVC ✩✩</li>
+        						</ul>
+        					</div>
 
-    			<div class="row skills">
-    					<div class="col-xs-6 col-md-3">
-    						<h4>CS</h4>
-    						<ul>
-    							<li id="turingMachines">Turing Machines ✩</li>
-    							<li id="assembly">Assembly ✩</li>
-    							<li id="c">C ✩</li>
-    							<li id="cplusplus">C++ ✩✩✩</li>
-                  <li id="python">Python ✩✩</li>
-                  <li id="java">Java ✩✩</li>
-    							<li id="mvc">MVC ✩✩</li>
-    						</ul>
-    					</div>
+        					<div class="col-xs-6 col-md-3">
+        						<h4>Front End</h4>
+        						<ul>
+        							<li id="html">HTML ✩✩✩✩</li>
+        							<li id="css">CSS, SASS, Bootstrap ✩✩✩</li>
+        							<li id="javascript">JavaScript ✩✩✩✩</li>
+        							<li id="jquery">jQuery ✩✩✩</li>
+        							<li id="angular">Angular ✩✩✩✩</li>
+                                    <li id="react">ReactJS ✩✩✩✩</li>
+        							<li id="karmaJasmine">Karma, Jasmine ✩</li>
+        							<li id="gulpGrunt">Gulp, Grunt ✩✩</li>
+        						</ul>
+        					</div>
 
-    					<div class="col-xs-6 col-md-3">
-    						<h4>Front End</h4>
-    						<ul>
-    							<li id="html">HTML ✩✩✩✩</li>
-    							<li id="css">CSS, SASS, Bootstrap ✩✩✩</li>
-    							<li id="javascript">JavaScript ✩✩✩✩</li>
-    							<li id="jquery">jQuery ✩✩✩</li>
-    							<li id="angular">Angular ✩✩✩✩</li>
-    							<li id="karmaJasmine">Karma, Jasmine ✩</li>
-    							<li id="gulpGrunt">Gulp, Grunt ✩✩</li>
-    						</ul>
-    					</div>
+        					<div class="col-xs-6 col-md-3">
+        						<h4>Back End</h4>
+        						<ul>
+        							<li id="node">Node ✩✩✩</li>
+        							<li id="express">Express ✩✩✩</li>
+        							<li id="passport">Passport ✩</li>
+        							<li id="mongo">MongoDB, Mongoose ✩✩✩</li>
+        							<li id="mochaSupertest">Mocha, Supertest ✩</li>
+        							<li id="sql">Relational DBs, SQL ✩</li>
+                                    <li id="asp">Asp.Net ✩</li>
+        						</ul>
+        					</div>
 
-    					<div class="col-xs-6 col-md-3">
-    						<h4>Back End</h4>
-    						<ul>
-    							<li id="node">Node ✩✩</li>
-    							<li id="express">Express ✩✩✩</li>
-    							<li id="passport">Passport ✩</li>
-    							<li id="mongo">MongoDB, Mongoose ✩✩✩</li>
-    							<li id="mochaSupertest">Mocha, Supertest ✩</li>
-    							<li id="sql">Relational DBs, SQL ✩</li>
-    						</ul>
-    					</div>
-
-    					<div class="col-xs-6 col-md-3 soft">
-    						<h4>Other</h4>
-    						<ul>
-    							<li id="smartWork">Smart Work ✩✩✩✩</li>
-    							<li id="communication">Communication/Team work ✩✩✩✩✩</li>
-                  <li id="git">Git ✩✩✩✩</li>
-                  <li id="psychology">Psychology ✩✩✩✩</li>
-    					</div>
-    				</div>
-
-    				<div class="row elaboration">
-    					<h3 id="skill">Click a skill to see notes</h3>
-    					<ul></ul>
-    				</div>
-    			</div>
-        </div>
-
+        					<div class="col-xs-6 col-md-3 soft">
+        						<h4>Other</h4>
+        						<ul>
+        							<li id="smartWork">Smart Work ✩✩✩✩</li>
+        							<li id="communication">Communication/Team work ✩✩✩✩✩</li>
+                                    <li id="git">Git ✩✩✩✩</li>
+                                    <li id="psychology">Psychology ✩✩✩✩</li>
+                                    <li id="svn">SVN ✩✩</li>
+                                </ul>
+        					</div>
+        				</div>
+        			</div>
+                </div>
+            </div>
+        </main>
+        <footer class="site-footer">
+            <ul>
+                <li><a href="mailto:csg1922@gmail.com">csg1922@gmail.com</a></li>
+                <li>-</li>
+                <li><a href="https://github.com/connergreene">GitHub</a></li>
+                <li>-</li>
+                <li><a href="http://stackoverflow.com/users/5964572/conner-greene">Stack Overflow</a></li>
+                <li>-</li>
+                <li><a href="https://news.ycombinator.com/user?id=csg1922">Hacker News</a></li>
+            </ul>
+        </footer>
 	</body>
 </html>

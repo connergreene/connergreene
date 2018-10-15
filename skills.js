@@ -36,7 +36,7 @@ $(document).ready(function() {
       'I\'m familiar with most of the jQuery library I know the fundamentals.  However, I do not really use it much.'
     ],
     angular: [
-      'I have used Angular a lot and have used it in a bunch of works.  I am very comfortable using it and have read a lot about it.'
+      'I have used Angular a lot.  I am very comfortable using it and have built most of my apps with it.'
     ],
     karmaJasmine: [
       'I\'ve done some testing with Karma and with Jasmine. I am not particularly skilled or experienced with them but I can use them.'
@@ -85,8 +85,20 @@ $(document).ready(function() {
     ],
     git: [
       'I\'m comfortable working with Git and GitHub.',
-      'I use it for version control on all of my project',
+      'I use it for version control on all of my projects',
       'I am no master of it but I am sure if there is a problem I could easily troubleshoot it due to my familiarity.'
+    ],
+    asp: [
+      'Use at work.',
+      'Know enough to read and build a front-end on top of it.'
+    ],
+    react: [
+      'What I am currently using at work.',
+      'Can very comfortably work and build with React.'
+    ],
+    svn: [
+      'The version control we use at work',
+      'Can comfortably use.'
     ]
   };
 

@@ -1,78 +1,114 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title>Conner Greene</title>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-		<link href="app.css" rel="stylesheet">
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container navbar-container">
-        <ul class="nav navbar-nav navbar-left">
-	        <li><a href="./index.html"><span class="glyphicon glyphicon-home"></span></a></li>
-          <li><a href="personal.html">Personal</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li><a href="skills.html">Skills</a></li>
-          <li><a href="projects.html">Projects</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="mailto:csg1922@gmail.com">csg1922@gmail.com</a></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container personal-template">
-    			<div class="page-header">
-    				<h1>Personal</h1>
-    			</div>
+        <meta charset="utf-8">
+        <title>Conner Greene</title>
+        <link rel="shortcut icon" href="logo.png" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="app.css" rel="stylesheet">
+        <link href="navbar.css" rel="stylesheet">
+        <script src="navbar.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar navbar-fixed-top">
+                <a href="./index.html" class="nav-logo">
+                    <img src="logo.svg">
+                </a>
+                <div class="burger">
+                    <div class="burger__patty"></div>
+                    <div class="burger__patty"></div>
+                    <div class="burger__patty"></div>
+                </div>
+                <nav class="menu">
+                    <div class="menu__brand">
+                        <div class="logo">
+                            <a href="mailto:csg1922@gmail.com">
+                                <img src="logo.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="./index.html" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="personal.html" class="menu__link">Personal</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="education.html" class="menu__link">Education</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="skills.html" class="menu__link">Skills</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="projects.html" class="menu__link">Projects</a>
+                        </li>
+                    </ul>
+                </nav>
+            </nav>
+        </header>
+        <main>
+            <div class="page-header">
+                    <h1>Personal</h1>
+            </div>
+            <div class="container personal-template">
 
     			<img class="myFace" src="profile.jpg" width="300">
 
-    			<section>
-    				<p>
-    					Name: Conner Greene<br>
-    					Age: 25<br>
-    					Location: Syosset, NY<br>
-    					Field: Software Developer
-    				</p>
-    			</section>
+                <div class="personal-info">
+                    <div class="grey-border">
+            			<section class="center-info">
+                            <h2>Info</h2>
+                            <div class="info">
+                				<p>
+                					Name: Conner Greene<br>
+                					Age: 26<br>
+                					Location: Massapequa, NY<br>
+                					Field: Software Engineer
+                				</p>
+                            </div>
+            			</section>
 
-    			<section>
-    				<h6>Things I Like</h6>
-    				<p>Smart work, deep learning, intuitive designs, modular code, puns, cooking, honesty, sports, basketball, Parks and Rec(show and real life), Community, food, and Oxford commas</p>
-    			</section>
+            			<section class="center-info">
+            				<h2>Things I Like</h2>
+            				<p>Smart work, deep learning, intuitive designs, modular code, puns, cooking, honesty, sports, basketball, Parks and Rec(show and real life), Community, food, and Oxford commas</p>
+            			</section>
 
-    			<section>
-    				<h6>Favorites</h6>
-    				<ul>
-    					<li>Books: Catch 22, The Martian, Devil in the White City, Hitchhikers Guide to the Galaxy</li>
-    					<li>Movies: Space Jam, Nightmare Before Christmas, The Imitation Game, The Big Short, Fight Club, and most Marvel movies </li>
-    					<li>Sports: Rockets, Magic, NY Giants, Islanders, Yankees, Cubs, and the Red Bulls</li>
-    					<li>Apps: Chrome, Atom, Z Shell (theme: mh), and Slack</li>
-    				</ul>
-    			</section>
-
-    			<section>
-    				<h6>Links</h6>
-    				<ul>
-    					<li><a href="https://github.com/connergreene">GitHub</a></li>
-    					<li><a href="http://stackoverflow.com/users/5964572/conner-greene">Stack Overflow</a></li>
-    					<li><a href="https://news.ycombinator.com/user?id=csg1922">Hacker News</a></li>
-    				</ul>
-    			</section>
-
-    			<section class="quotes">
-    				<h6>Quotes</h6>
-    				<ul>
-    					<li>Under pressure, you don’t rise to the occasion, you sink to the level of your training. That’s why we train so hard. - Navy Seal</li>
-    					<li>When you come to a fork in the road, take it. - Yogi Berra</li>
-    					<li>You better cut the pizza in four pieces because I’m not hungry enough to eat six. - Yogi Berra</li>
-    					<li>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning. - Albert Einstein</li>
-    				</ul>
-    			</section>
+            			<section class="center-info">
+            				<h2>Favorites</h2>
+            				<ul>
+            					<li>Books: Catch 22, The Martian, Devil in the White City, Hitchhikers Guide to the Galaxy</li>
+            					<li>Movies: Space Jam, Nightmare Before Christmas, The Imitation Game, The Big Short, Fight Club, and most Marvel movies </li>
+            					<li>Sports: Rockets, Magic, NY Giants, Islanders, Yankees, Cubs, and the Red Bulls</li>
+            					<li>Apps: Chrome, Atom, Z Shell (theme: mh), and Slack</li>
+            				</ul>
+            			</section>
+            			<section class="quotes center-info">
+            				<h2>Quotes</h2>
+            				<ul>
+            					<li>Under pressure, you don’t rise to the occasion, you sink to the level of your training. That’s why we train so hard. - Navy Seal</li>
+            					<li>When you come to a fork in the road, take it. - Yogi Berra</li>
+            					<li>You better cut the pizza in four pieces because I’m not hungry enough to eat six. - Yogi Berra</li>
+            					<li>Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning. - Albert Einstein</li>
+            				</ul>
+            			</section>
+                    </div>
+                </div>
     		</div>
-
+        </main>
+        <footer class="site-footer">
+            <ul>
+                <li><a href="mailto:csg1922@gmail.com">csg1922@gmail.com</a></li>
+                <li>-</li>
+                <li><a href="https://github.com/connergreene">GitHub</a></li>
+                <li>-</li>
+                <li><a href="http://stackoverflow.com/users/5964572/conner-greene">Stack Overflow</a></li>
+                <li>-</li>
+                <li><a href="https://news.ycombinator.com/user?id=csg1922">Hacker News</a></li>
+            </ul>
+        </footer>
 	</body>
 </html>

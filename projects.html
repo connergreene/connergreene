@@ -3,114 +3,155 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Conner Greene</title>
+		<link rel="shortcut icon" href="logo.png" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 		<link href="app.css" rel="stylesheet">
+		<link href="navbar.css" rel="stylesheet">
+		<script src="navbar.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container navbar-container">
-			<ul class="nav navbar-nav navbar-left">
-				<li><a href="./index.html"><span class="glyphicon glyphicon-home"></span></a></li>
-				<li><a href="personal.html">Personal</a></li>
-				<li><a href="education.html">Education</a></li>
-				<li><a href="skills.html">Skills</a></li>
-				<li><a href="projects.html">Projects</a></li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-			  <li><a href="mailto:csg1922@gmail.com">csg1922@gmail.com</a></li>
-			</ul>
-			</div>
-    	</nav>
-	    <div class="container projects-template">
+		<header class="header">
+			<nav class="navbar navbar-fixed-top">
+				<a href="./index.html" class="nav-logo">
+					<img src="logo.svg">
+				</a>
+				<div class="burger">
+					<div class="burger__patty"></div>
+					<div class="burger__patty"></div>
+					<div class="burger__patty"></div>
+				</div>
+				<nav class="menu">
+					<div class="menu__brand">
+						<div class="logo">
+							<a href="mailto:csg1922@gmail.com">
+								<img src="logo.svg">
+							</a>
+						</div>
+					</div>
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="./index.html" class="menu__link">Home</a>
+						</li>
+						<li class="menu__item">
+							<a href="personal.html" class="menu__link">Personal</a>
+						</li>
+						<li class="menu__item">
+							<a href="education.html" class="menu__link">Education</a>
+						</li>
+						<li class="menu__item">
+							<a href="skills.html" class="menu__link">Skills</a>
+						</li>
+						<li class="menu__item">
+							<a href="projects.html" class="menu__link">Projects</a>
+						</li>
+					</ul>
+				</nav>
+			</nav>
+		</header>
+		<main>
 			<div class="page-header">
-				<h1>Projects</h1>
+					<h1>Projects</h1>
 			</div>
+		    <div class="container projects-template">
+		    	<div class="grey-border">
+					<div class="project">
+						<h3>Times Games</h3>
+						<p><em><small>An app that uses creative algorithms to generate word puzzles based on the ones found in the New York Times.
+						</small></em></p>
+						<img class="project-image" src="https://dl.dropboxusercontent.com/s/sa3x0h0jrf2cc9a/times-games-landing.png?dl=0">
+						<p class="links"/>
+							<a href="https://times-games.herokuapp.com/">times-games.herokuapp.com</a>
+			         		&bull;
+			          		<a href="https://github.com/connergreene/pick-six-puzzle">GitHub</a>
+						</p>
+					</div>
 
-			<div class="project">
-				<h3>Times Games</h3>
-				<p><em><small>An app that uses creative algorithms to generate word puzzles based on the ones found in the New York Times.
-				</small></em></p>
-				<img class="project-image" src="https://dl.dropboxusercontent.com/s/sa3x0h0jrf2cc9a/times-games-landing.png?dl=0">
-				<p class="links"/>
-					<a href="https://times-games.herokuapp.com/">times-games.herokuapp.com</a>
-	         		&bull;
-	          		<a href="https://github.com/connergreene/pick-six-puzzle">GitHub</a>
-				</p>
-			</div>
+					<div class="project">
+						<h3>Shwayter</h3>
+						<p><em><small>A program to send orders from the register to the kitchen using webhooks in Square's Connect api. It is used at Pudge Knuckles cafe in Williamsburg.
+						</small></em></p>
+						<img class="project-image" src="https://dl.dropboxusercontent.com/s/hbkl3cb2eb6o59t/orders-in.gif?dl=0">
+						<p class="links"/>
+							<a href="https://shwayter-hooks.herokuapp.com/">shwayter-hooks.herokuapp.com</a>
+			         		&bull;
+			          		<a href="https://github.com/connergreene/shwayter-hooks">GitHub</a>
+			          		&bull;
+			          		<a href="http://www.pudgeknuckles.com/">The Cafe</a>
+						</p>
+					</div>
 
-			<div class="project">
-				<h3>Shwayter</h3>
-				<p><em><small>A program to send orders from the register to the kitchen using webhooks in Square's Connect api. It is used at Pudge Knuckles cafe in Williamsburg.
-				</small></em></p>
-				<img class="project-image" src="https://dl.dropboxusercontent.com/s/hbkl3cb2eb6o59t/orders-in.gif?dl=0">
-				<p class="links"/>
-					<a href="https://shwayter-hooks.herokuapp.com/">shwayter-hooks.herokuapp.com</a>
-	         		&bull;
-	          		<a href="https://github.com/connergreene/shwayter-hooks">GitHub</a>
-	          		&bull;
-	          		<a href="http://www.pudgeknuckles.com/">The Cafe</a>
-				</p>
-			</div>
+					<div class="project">
+						<h3>CabinetsPlus</h3>
+						<p><em><small>A responsive website designed for a woodworking company to increase customer inflow.
+						</small></em></p>
+						<img class="project-image" src="https://dl.dropboxusercontent.com/s/gfyibrhpuz8w2wm/cabinets.png?dl=0">
+						<p class="links"/>
+							<a href="http://customcabinetrync.com/">customcabinetrync.com</a>
+			         		&bull;
+			          		<a href="https://github.com/connergreene/cabinets">GitHub</a>
+						</p>
+					</div>
 
-			<div class="project">
-				<h3>CabinetsPlus</h3>
-				<p><em><small>A responsive website designed for a woodworking company to increase customer inflow.
-				</small></em></p>
-				<img class="project-image" src="https://dl.dropboxusercontent.com/s/gfyibrhpuz8w2wm/cabinets.png?dl=0">
-				<p class="links"/>
-					<a href="http://customcabinetrync.com/">customcabinetrync.com</a>
-	         		&bull;
-	          		<a href="https://github.com/connergreene/cabinets">GitHub</a>
-				</p>
-			</div>
+					<div class="project">
+						<h3>SlideStack</h3>
+						<p><em><small>An app for creating, editing, and presenting interactive slideshows, built with tools meant specifically to meet the needs of programming teachers.</small></em></p>
+						<iframe class="wistia_embed" name="wistia_embed" src="http://fast.wistia.net/embed/iframe/ioghvxrhsw" allowtransparency="true" frameborder="0" scrolling="no" width="480" height="298"></iframe>
+						<p class="links">
+							<a href="http://slidestack.herokuapp.com">slidestack.herokuapp.com</a>
+			         		&bull;
+			          		<a href="https://github.com/tryenc/SlideStack">GitHub</a>
+			          		&bull;
+			          		<a href="http://www.fullstackacademy.com/final-projects/slidestack">More Info</a>
+						</p>
+					</div>
 
-			<div class="project">
-				<h3>SlideStack</h3>
-				<p><em><small>An app for creating, editing, and presenting interactive slideshows, built with tools meant specifically to meet the needs of programming teachers.</small></em></p>
-				<iframe class="wistia_embed" name="wistia_embed" src="http://fast.wistia.net/embed/iframe/ioghvxrhsw" allowtransparency="true" frameborder="0" scrolling="no" width="480" height="298"></iframe>
-				<p class="links">
-					<a href="http://www.slidestack.us/">slidestack.us</a>
-	         		&bull;
-	          		<a href="https://github.com/tryenc/SlideStack">GitHub</a>
-	          		&bull;
-	          		<a href="http://www.fullstackacademy.com/final-projects/slidestack">More Info</a>
-				</p>
-			</div>
-
-			<div class="project">
-				<h3>WebAssembly</h3>
-				<p><em><small>This is a tech talk I gave about WebAssembly and why JS developers should care</small></em></p>
-				<iframe width="515" height="290" src="https://www.youtube.com/embed/6owJlpaV0XA" frameborder="0" allowfullscreen></iframe>
-				<p class="links">
-					<a href="http://www.fullstackacademy.com/tech-talks/webassembly">More Info</a>
-				</p>
-			</div>
-			<hr />
-			<div class="project-minor">
-				<p>Budgeteer</p>
-				<ul>
-					<li>Won <em>Best Use of API</em> at the <a href="http://www.businessinsider.com/break-the-banks-hackathon-2015-12">Break the Banks Hackathon</a>.</li>
-					<li>A tool geared towards millenials to give financial advice. Includes gamification and social aspects.</li>
-					<li>The idea is to help people who don't have the patience for finances.</li>
-	      			<li><a href="https://github.com/ajpz/budgeteer">Github</a></li>
-				</ul>
-			</div>
-			<div class="project-minor">
-				<p>SportsWratings</p>
-				<ul>
-	          		<li>A site that allows sports writers to make predictions and be held accountable for their predictions.</li>
-	          		<li>Currently uncompleted because of these issues:  
-	          			<ul>
-	          				<li>External word predictor library  can only be used once </li>
-	                		<li>Custom web scraping api doesn't work anymore</li>
-	                	</ul>
-	          		</li>
-	          		<li>Plan on fixing these bugs and finishing the site.</li>
-					<li><a href="https://github.com/connergreene/sports-wratings">GitHub</a></li>
-				</ul>
-			</div>
-	    </div>
+					<div class="project">
+						<h3>WebAssembly</h3>
+						<p><em><small>This is a tech talk I gave about WebAssembly and why JS developers should care</small></em></p>
+						<iframe width="515" height="290" src="https://www.youtube.com/embed/6owJlpaV0XA" frameborder="0" allowfullscreen></iframe>
+						<p class="links">
+							<a href="http://www.fullstackacademy.com/tech-talks/webassembly">More Info</a>
+						</p>
+					</div>
+					<hr />
+					<div class="project-minor">
+						<p>Budgeteer</p>
+						<ul>
+							<li>Won <em>Best Use of API</em> at the <a href="http://www.businessinsider.com/break-the-banks-hackathon-2015-12">Break the Banks Hackathon</a>.</li>
+							<li>A tool geared towards millenials to give financial advice. Includes gamification and social aspects.</li>
+							<li>The idea is to help people who don't have the patience for finances.</li>
+			      			<li><a href="https://github.com/ajpz/budgeteer">Github</a></li>
+						</ul>
+					</div>
+					<div class="project-minor">
+						<p>SportsWratings</p>
+						<ul>
+			          		<li>A site that allows sports writers to make predictions and be held accountable for their predictions.</li>
+			          		<li>Currently uncompleted because of these issues:  
+			          			<ul>
+			          				<li>External word predictor library  can only be used once </li>
+			                		<li>Custom web scraping api doesn't work anymore</li>
+			                	</ul>
+			          		</li>
+			          		<li>Plan on fixing these bugs and finishing the site.</li>
+							<li><a href="https://github.com/connergreene/sports-wratings">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+		    </div>
+		</main>
+		<footer class="site-footer">
+            <ul>
+                <li><a href="mailto:csg1922@gmail.com">csg1922@gmail.com</a></li>
+                <li>-</li>
+                <li><a href="https://github.com/connergreene">GitHub</a></li>
+                <li>-</li>
+                <li><a href="http://stackoverflow.com/users/5964572/conner-greene">Stack Overflow</a></li>
+                <li>-</li>
+                <li><a href="https://news.ycombinator.com/user?id=csg1922">Hacker News</a></li>
+            </ul>
+        </footer>
 	</body>
 </html>
