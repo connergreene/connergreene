@@ -412,3 +412,47 @@ li {
   border-top: 1px solid lightgray;
   min-height: 150px;
 }
+
+
+@media screen and (max-width: 992px) {
+  .skills-template .skills {
+    min-height: 500px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .skills-template .skills {
+    min-height: 500px;
+  }
+
+  .skills-template .top {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-template .summary {
+    width: 100%;
+  }
+
+  .skills-template .summary h2{
+    font-size: 20px;
+  }
+
+  .skills-template .scale {
+    width: 166px;
+    height: 159px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+}
+
+
