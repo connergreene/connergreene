@@ -177,6 +177,8 @@
 .menu .menu__item:nth-child(6) {
   transition-delay: 0.6s;
 }
+
+
 @media screen and (max-width: 768px) {
   ul.menu__list, div.menu__brand {
     float: none;
@@ -198,8 +200,14 @@
     transform: translate3d(100%, 0, 0);
   }
   .menu__brand .logo {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .menu__brand .logo>a>img  {
+    height: 70px;
+    width: 70px;
   }
 }
 .logo {
@@ -212,3 +220,4 @@ h1, h2, h3, p {
   margin: 0;
   font-weight: 400;
 }
+
