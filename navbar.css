@@ -28,6 +28,10 @@
   width: 100px;
   border-radius: 70px;
   background-color: white;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,6 +81,7 @@
   right: 0;
   bottom: 0;
   width: 24%;
+  border-radius: 50%;
 }
 .menu {
   position: fixed;
