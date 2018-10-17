@@ -27,7 +27,7 @@ $(document).ready(function() {
       'Html is used in most of the things I do and I have a good understanding on the ins and outs.'
     ],
     css: [
-      'I use css a lot and am not a master of it.  However, I enjoy using it and playing around with it to make some nice designs.'
+      'I use css and sass a lot. I enjoy using it and playing around with it to make some nice designs.'
     ],
     javascript: [
       'I\'ve been working with JavaScript a lot and I am very comfortable with it. I practice with it and have read some books and articles on it.'
